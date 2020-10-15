@@ -21,7 +21,7 @@
       {
           "name": "fluentd-elasticsearch",
           "type": "helm",
-          "source": "https://github.com/kiwigrid/helm-charts",
+          "source": "https://github.com/kokuwaio/helm-charts",
           "method": "git",
           "path": "charts/fluentd-elasticsearch"
       },
