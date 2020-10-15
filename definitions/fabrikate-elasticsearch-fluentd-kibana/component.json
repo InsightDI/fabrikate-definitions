@@ -6,9 +6,9 @@
     {
       "name": "elasticsearch",
       "type": "helm",
-      "source": "https://github.com/helm/charts",
+      "source": "https://helm.elastic.co",
       "method": "git",
-      "path": "stable/elasticsearch"
+      "path": "elastic/elasticsearch"
     },
     {
       "name": "elasticsearch-curator",
@@ -20,16 +20,16 @@
     {
       "name": "fluentd-elasticsearch",
       "type": "helm",
-      "source": "https://github.com/helm/charts",
+      "source": "https://kokuwaio.github.io/helm-charts",
       "method": "git",
-      "path": "stable/fluentd-elasticsearch"
+      "path": "kokuwa/fluentd-elasticsearch"
     },
     {
       "name": "kibana",
       "type": "helm",
-      "source": "https://github.com/helm/charts",
+      "source": "https://helm.elastic.co",
       "method": "git",
-      "path": "stable/kibana"
+      "path": "elastic/kibana"
     }
   ]
 }

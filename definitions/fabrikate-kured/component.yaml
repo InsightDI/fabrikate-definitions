@@ -1,8 +1,8 @@
 name: "kured"
 type: helm
-source: "https://github.com/helm/charts"
+source: "https://weaveworks.github.io/kured"
 method: "git"
-path: "stable/kured"
+path: "kured/kured"
 subcomponents:
   - name: "static"
     type: static
